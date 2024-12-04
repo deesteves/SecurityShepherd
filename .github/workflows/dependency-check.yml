@@ -1,9 +1,8 @@
 name: Dependency-Check
 
 on:
-  schedule:
-    # runs on the default branch every 2 weeks
-    - cron:  '0 0 1,15 * *'
+  workflow_dispatch:
+  
   push:
     branches: [master, dev]
     paths:
