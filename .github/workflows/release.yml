@@ -12,6 +12,7 @@ on:
       - 'LICENSE'
       - 'README.md'
       - 'Vagrantfile'
+  workflow_dispatch:
 
 jobs:
   build:
